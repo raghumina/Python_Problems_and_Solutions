@@ -53,10 +53,24 @@ print(max_of_three_numbers(a, b, c))
 # Sample List : (8, 2, 3, 0, 7)
 # Expected Output : 20
 
-list = [8, 2, 3, 0, 7]
 def sum_of_list(list):
     total = 0
     for x in list:
         total += x
     return total
-print(sum_of_list((1,2,3,4,5)))
+print(sum_of_list((8, 2, 3, 0, 7)))
+
+
+# Problem 3
+#
+# 3. Write a Python function to multiply all the numbers in a list.
+# Sample List : (8, 2, 3, -1, 7)
+# Expected Output : -336
+
+def multiplication_of_list(list1):
+    total = 0
+    for x in list1:
+        total *= x
+    return total
+
+print(multiplication_of_list((8, 2, 3, -1, 7)))
