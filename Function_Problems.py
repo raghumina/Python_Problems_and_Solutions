@@ -45,3 +45,18 @@ b = int(input("Enter number c: "))
 c = int(input("Enter number c: "))
 
 print(max_of_three_numbers(a, b, c))
+
+
+# Problem 2
+#
+# 2. Write a Python function to sum all the numbers in a list.
+# Sample List : (8, 2, 3, 0, 7)
+# Expected Output : 20
+
+list = [8, 2, 3, 0, 7]
+def sum_of_list(list):
+    total = 0
+    for x in list:
+        total += x
+    return total
+print(sum_of_list((1,2,3,4,5)))
