@@ -40,11 +40,11 @@ def max_of_three_numbers(a, b, c):
     return max_of_two_number(a, max_of_two_number(b, c))
 
 
-a = int(input("Enter number a: "))
-b = int(input("Enter number c: "))
-c = int(input("Enter number c: "))
+#a = int(input("Enter number a: "))
+#b = int(input("Enter number c: "))
+#c = int(input("Enter number c: "))
 
-print(max_of_three_numbers(a, b, c))
+#print(max_of_three_numbers(a, b, c))
 
 
 # Problem 2
