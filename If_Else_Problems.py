@@ -17,7 +17,9 @@ def leap_year(year):
 
 year = int(input("Please enter a year "))
 print(leap_year(year))
-'''
+
+
+
 # Problem 2
 # Ask user to enter age, sex ( M or F ), marital status ( Y or N )
 # and then using following rules print their place of service.
@@ -40,3 +42,16 @@ def designation(gender,age):
 gender = input("Enter your gender here 'M' or 'F' only: ")
 age = int(input("Enter your age here: "))
 print(designation(gender.upper(),age))
+'''
+
+
+# Problem number 3
+#
+# A 4 digit number is entered through keyboard.
+# Write a program to print a new number with digits reversed as of orignal one. E.g.-
+# INPUT : 1234        OUTPUT : 4321
+# INPUT : 5982        OUTPUT : 2895
+
+def reverese(num):
+    rev = 0
+    
