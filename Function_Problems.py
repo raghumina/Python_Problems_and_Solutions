@@ -85,6 +85,11 @@ print(multiplication_of_list((8, 2, 3, -1, 7)))
 def rectangle_area(length,width):
     area = length * width
     return area
+def rectangel_parameter(length,width):
+    parameter = 2 * length + 2 * width
+    return parameter
+
 length = int(input("Enter length of the rectangle: "))
 width = int(input("Enter width of the rectangle: "))
 print("The area of rectangle is:",rectangle_area(length,width))
+print("The parameter of rectange: ",rectangel_parameter(length,width))
