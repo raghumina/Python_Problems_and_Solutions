@@ -1,2 +1,2 @@
-# Python_Problems_and_Solutions
- Python Topic wise Problems and Solutions 
+# python_Problems_and_Solutions
+ Python_TopicWise_Problems_and_Solutions
