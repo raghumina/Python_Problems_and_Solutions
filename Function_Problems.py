@@ -76,7 +76,7 @@ def multiplication_of_list(list1):
 print(multiplication_of_list((8, 2, 3, -1, 7)))
 
 
-
+# Problem 4
 # WRITE A FUNCTION TO CALCULATE AREA AND PERIMETER OF A RECTANGLE
 #
 # lETS START
@@ -93,3 +93,10 @@ length = int(input("Enter length of the rectangle: "))
 width = int(input("Enter width of the rectangle: "))
 print("The area of rectangle is:",rectangle_area(length,width))
 print("The parameter of rectange: ",rectangel_parameter(length,width))
+
+# Problem 5
+#
+# Write a function to calculate area and circumference of a circle.
+# lets start
+
+def circle_area()
