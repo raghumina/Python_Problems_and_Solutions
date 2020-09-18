@@ -81,7 +81,7 @@ print(multiplication_of_list((8, 2, 3, -1, 7)))
 #
 # lETS START
 #
-'''
+
 def rectangle_area(length,width):
     area = length * width
     return area
@@ -98,5 +98,28 @@ print("The parameter of rectange: ",rectangel_parameter(length,width))
 #
 # Write a function to calculate area and circumference of a circle.
 # lets start
+import math
+def circle_area(radius):
+    area = 2 * math.pi * radius
+    return area
+def circle_circumfrence(radius):
+    circumfrence = 2 * math.pi * radius ** 2
+    return circumfrence
+radius = float(input("Enter radius here: "))
+print("The area of circle is: ",round(circle_area(radius)))     # i used round() function to round off the answer
+print("The circumgrence is : ",round(circle_circumfrence(radius)))
+'''
 
-def circle_area()
+
+#
+# Problem 6
+#
+# Write a function to calculate power of a number raised to other. E.g.- ab.
+
+def power_number(num, power):
+    power_of_number = num ** power
+    return power_of_number
+
+num = int(input("Enter the number here: "))
+power = int(input("Enter the power of number here: "))
+print("THE",num,"the POWER",power,"is",power_number(num, power))
