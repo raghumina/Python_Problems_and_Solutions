@@ -4,10 +4,10 @@
 
 # Problem 1
 # 1. Write a Python function to find the Max of three numbers
-
+'''
 def max(a, b, c):
-    '''PYTHON FUNCTION TO FIND THE MAX OF THREE NUMBERS
-    In this we are supposing that three numbers are different not equal of each other '''
+   # PYTHON FUNCTION TO FIND THE MAX OF THREE NUMBERS
+   # In this we are supposing that three numbers are different not equal of each other  # put a docstring here
     if a > b and a > c:
         print("A is Max")
     elif b > a and b > c:
@@ -28,15 +28,15 @@ def max(a, b, c):
 # another way of solving this problem is
 
 def max_of_two_number(a, b):
-    ''' Function to find max number among two-'''
+     Function to find max number among two- # put a docstring here
     if a > b:
         return a
     return b
 
 
 def max_of_three_numbers(a, b, c):
-    '''To find max among three
-    the numbers should not be equal'''
+    To find max among three       # put a docstring here
+    the numbers should not be equal
     return max_of_two_number(a, max_of_two_number(b, c))
 
 
@@ -74,3 +74,17 @@ def multiplication_of_list(list1):
     return total
 
 print(multiplication_of_list((8, 2, 3, -1, 7)))
+
+
+
+# WRITE A FUNCTION TO CALCULATE AREA AND PERIMETER OF A RECTANGLE
+#
+# lETS START
+#
+'''
+def rectangle_area(length,width):
+    area = length * width
+    return area
+length = int(input("Enter length of the rectangle: "))
+width = int(input("Enter width of the rectangle: "))
+print("The area of rectangle is:",rectangle_area(length,width))
