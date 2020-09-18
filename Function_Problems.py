@@ -108,7 +108,7 @@ def circle_circumfrence(radius):
 radius = float(input("Enter radius here: "))
 print("The area of circle is: ",round(circle_area(radius)))     # i used round() function to round off the answer
 print("The circumgrence is : ",round(circle_circumfrence(radius)))
-'''
+
 
 
 #
@@ -123,3 +123,18 @@ def power_number(num, power):
 num = int(input("Enter the number here: "))
 power = int(input("Enter the power of number here: "))
 print("THE",num,"the POWER",power,"is",power_number(num, power))
+
+'''
+# Problem 7
+#
+# Write a function to tell user if he/she is able to vote or not.
+# ( Consider minimum age of voting to be 18. )
+
+def voting(age):
+    if age>= 18:
+        return "Your are eligible to vote"
+    else:
+        return "Not eligible"
+
+age = int(input("Enter your age here: "))
+print(voting(age))
