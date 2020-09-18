@@ -44,7 +44,6 @@ age = int(input("Enter your age here: "))
 print(designation(gender.upper(),age))
 '''
 
-
 # Problem number 3
 #
 # A 4 digit number is entered through keyboard.
@@ -52,6 +51,11 @@ print(designation(gender.upper(),age))
 # INPUT : 1234        OUTPUT : 4321
 # INPUT : 5982        OUTPUT : 2895
 
-def reverese(num):
-    rev = 0
-    
+
+rev = 0
+num = int(input("Enter a number: "))
+while num > 0:
+    a = num % 10
+    rev = rev * 10 + a
+    num = num // 10
+    print(rev)
