@@ -138,3 +138,4 @@ def voting(age):
 
 age = int(input("Enter your age here: "))
 print(voting(age))
+
