@@ -60,7 +60,7 @@ while num > 0:
     num = num // 10
     print(rev)
 
-'''
+
 # Problem 4
 
 #  Given a two integer numbers return their product and  if the product is greater than 1000, then return their sum
@@ -73,3 +73,16 @@ if product > 1000:
     print(num1 + num2)
 else:
     print(product)
+'''
+# Problem 5
+#
+#  Given a range of first 10 numbers,
+#  Iterate from start number to the end number and print the sum of the current number and previous number
+count = 0
+print("Printing current and previous number sum in a given range(10)")
+num = int(input())
+for num in range(num):
+    count = count + 1
+    print(count, num+ count)
+
+#     
