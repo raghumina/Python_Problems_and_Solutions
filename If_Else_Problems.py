@@ -42,7 +42,7 @@ def designation(gender,age):
 gender = input("Enter your gender here 'M' or 'F' only: ")
 age = int(input("Enter your age here: "))
 print(designation(gender.upper(),age))
-'''
+
 
 # Problem number 3
 #
@@ -59,3 +59,17 @@ while num > 0:
     rev = rev * 10 + a
     num = num // 10
     print(rev)
+
+'''
+# Problem 4
+
+#  Given a two integer numbers return their product and  if the product is greater than 1000, then return their sum
+
+num1 = int(input("Enter number 1 here: "))
+num2 = int(input("Enter number 2 here: "))
+
+product = num1 * num2
+if product > 1000:
+    print(num1 + num2)
+else:
+    print(product)
