@@ -73,7 +73,7 @@ if product > 1000:
     print(num1 + num2)
 else:
     print(product)
-'''
+
 # Problem 5
 #
 #  Given a range of first 10 numbers,
@@ -84,5 +84,18 @@ num = int(input())
 for num in range(num):
     count = count + 1
     print(count, num+ count)
+'''
 
-#     
+
+# we can also do it with help of functions
+
+
+def sumNum(num):
+    previousNum = 0
+    for i in range(num):
+        sum = previousNum + i
+        print("Current Number", i, "Previous Number ", previousNum," Sum: ", sum)
+        previousNum = i
+
+print("Printing current and previous number sum in a given range(10)")
+sumNum(10)
